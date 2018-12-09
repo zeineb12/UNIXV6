@@ -1,6 +1,6 @@
 # UNIXV6
 
-##Group project for the System-Oriented Programming course by Prof. Chappelier and Prof. Bugnion where we had to implement a unix v6 filesystem.
+#Group project for the System-Oriented Programming course by Prof. Chappelier and Prof. Bugnion where we had to implement a unix v6 filesystem.
 
 The different steps of the project consist of:
 
@@ -8,19 +8,31 @@ The different steps of the project consist of:
 
 - Implementation of a shell which supports the following commands:
 
--- exit
--- quit
--- help
--- mount
--- lsall
--- psb
--- cat
--- sha
--- inode
--- istat
--- mkfs
--- mkdir
--- add
+* exit
+
+* quit
+
+* help
+
+* mount
+
+* lsall
+
+* psb
+
+* cat
+
+* sha
+
+* inode
+
+* istat
+
+* mkfs
+
+* mkdir
+
+* add
 
 - Integration with FUSE. (Note that you should install FUSE first : sudo apt-get install libfuse2 libfuse-dev)
 
